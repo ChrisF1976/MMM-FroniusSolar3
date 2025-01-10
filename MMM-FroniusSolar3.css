@@ -1,0 +1,46 @@
+.MMM-FroniusSolar3 {
+width: var(--dynamic-width);
+}
+
+.MMM-FroniusSolar3 .solar3-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5px;
+    height: 100%;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.MMM-FroniusSolar3 .gauge3-container {
+    flex: 0 1 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.MMM-FroniusSolar3 .text-message3 {
+    width: 100%;
+    text-align: center;
+    margin-top: 0px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    box-sizing: border-box;
+}
+
+.MMM-FroniusSolar3 .gauge3-label {
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.MMM-FroniusSolar3 .gauge3-label .iconify {
+    font-size: 22px;
+}
