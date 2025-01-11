@@ -44,6 +44,7 @@ Add the module to the `config.js` file:
     position: "bottom_right", //select the best region for your module
     header: "MMM-FroniusSolar3",
     config: {
+        InverterIP: "192.168.178.134",
         updateInterval: 5*1000, // Update interval in milliseconds
         width: "300px", // Dynamic width for grid layout.
         icons: {
